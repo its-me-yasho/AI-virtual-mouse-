@@ -11,7 +11,7 @@ time.sleep(5)
 autopy.press('f11')
 wCam,hCam=640,480
 frameR=150
-smoothning=3
+smoothning=7
 
 cap=cv2.VideoCapture(0)
 cap.set(3,640)
